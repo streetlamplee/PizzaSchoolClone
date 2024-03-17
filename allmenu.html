@@ -1,0 +1,180 @@
+<HTML>
+        <HEAD>
+                <TITLE>menu </TITLE>
+        </HEAD>
+        <BODY>
+<CENTER>
+  
+  <form action='cart.php' method=POST>
+   <TABLE BORDER=5>
+   <CAPTION> 피자 </CAPTION>
+       <TR>
+           <TH> 사진 </TH>
+           <TH> 메뉴 이름 </TH>
+           <TH> 가격 </TH>
+           <TH> 칼로리 </TH>
+         <TH> 수량 </TH>
+
+      </TR>
+      <TR>
+           <TD> <IMG SRC="image/pizza/cheesepizza.jpg" HEIGHT=100 WIDTH=200></TD>
+           <TD> Cheese-Pizza </TD>
+           <TD> 6000 </TD>
+           <TD> 3000 </TD>
+         <TD> <input type=int name=CheesePizza size=1 value='0'></TD>
+
+      </TR>
+      <TR>
+           <TD> <IMG SRC="image/pizza/peperonipizza.jpg" HEIGHT=100 WIDTH=200></TD>
+           <TD> Peperoni-Pizza </TD>
+           <TD> 7000 </TD>
+           <TD> 3400</TD>
+         <TD> <form action=cart.php method=POST><input type=int name=PeperoniPizza size=1 value='0'></TD>
+
+             </TR>
+      <TR>
+           <TD><IMG SRC="image/pizza/combination.jpg" HEIGHT=100 WIDTH=200> </TD>
+           <TD> Combination-Pizza </TD>
+           <TD> 8000 </TD>
+           <TD> 3800 </TD>
+         <TD> <form action=cart.php method=POST><input type=int name=CombinationPizza size=1 value='0'></TD>
+
+             </TR>
+      <TR>
+           <TD> <IMG SRC="image/pizza/potatopizza.jpg" HEIGHT=100 WIDTH=200></TD>
+           <TD> Potato-Pizza </TD>
+           <TD> 8000 </TD>
+           <TD> 3800</TD>
+         <TD> <form action=cart.php method=POST><input type=int name=PotatoPizza size=1 value='0'></TD>
+
+             </TR>
+      <TR>
+           <TD> <IMG SRC="image/pizza/koreanbbq.jpg" HEIGHT=100 WIDTH=200> </TD>
+           <TD> Korean BBQ-Pizza </TD>
+           <TD> 8000 </TD>
+           <TD> 4200</TD>
+         <TD> <form action=cart.php method=POST><input type=int name=KoreanBBQPizza size=1 value='0'></TD>
+
+             </TR>
+</TABLE>
+<br></br>
+<CAPTION> 사이드 </CAPTION>
+<TABLE BORDER=5>
+<TR>
+           <TH> 사진 </TH>
+           <TH> 메뉴 이름 </TH>
+           <TH> 가격 </TH>
+           <TH> 칼로리 </TH>
+         <TH> 수량 </TH>
+
+      </TR>
+       <TR>
+           <TD>  <IMG SRC="image/side/shrimpringwedgepotato.jpg" HEIGHT=100 WIDTH=200> </TD>
+           <TD> Shrimp ring and Wedge Potato </TD>
+           <TD> 3500 </TD>
+           <TD> 800</TD>
+         <TD> <input type=int name=ShrimpringWedgePotato size=1 value='0'></TD>
+
+             </TR>
+      <TR>
+           <TD> <IMG SRC="image/side/cheeseovenspaghetti.jpg" HEIGHT=100 WIDTH=200></TD>
+           <TD> Cheese oven Spaghetti </TD>
+           <TD> 4000 </TD>
+           <TD> 500</TD>
+         <TD><input type=int name=CheeseOvenSpaghetti size=1 value='0'></TD>
+
+             </TR>
+      <TR>
+           <TD> <IMG SRC="image/side/hotsauce.jpg" HEIGHT=100 WIDTH=200> </TD>
+           <TD> Hot-Sauce </TD>
+           <TD> 100 </TD>
+           <TD> 50</TD>
+         <TD><input type=int name=HotSauce size=1 value='0'></TD>
+
+             </TR>
+      <TR>
+           <TD> <IMG SRC="image/side/pickle.jpg" HEIGHT=100 WIDTH=200></TD>
+           <TD> Pickle </TD>
+           <TD> 300 </TD>
+           <TD> 50</TD>
+         <TD> <input type=int name=Pickle size=1 value='0'></TD>
+
+             </TR>
+      <TR>
+           <TD> <IMG SRC="image/side/garlicdippingsauce.jpg" HEIGHT=100 WIDTH=200> </TD>
+           <TD> Garlic Dipping Sauce </TD>
+           <TD> 500 </TD>
+           <TD> 50</TD>
+         <TD> <input type=int name=GarlicDippingSauce size=1 value='0'></TD>
+
+             </TR>
+</TABLE>
+<br></br>
+<TABLE BORDER=5>
+      <CAPTION> 토핑 </CAPTION>
+      
+      <TR>
+           <TH> 사진 </TH>
+           <TH> 메뉴 이름 </TH>
+           <TH> 가격 </TH>
+           <TH> 칼로리 </TH>
+         <TH> 수량 </TH>
+
+      </TR>
+       <TR>
+           <TD> <IMG SRC="image/topping/sweetpotatomousse.jpg" HEIGHT=100 WIDTH=200> </TD>
+           <TD> Sweet Potato mousse </TD>
+           <TD> 1000 </TD>
+           <TD> 300</TD>
+         <TD> <input type=int name=SweetPotatoMousse size=1 value='0'></TD>
+
+             </TR>
+      <TR>
+           <TD> <IMG SRC="image/topping/cheesecrust.jpg" HEIGHT=100 WIDTH=200> </TD>
+           <TD> Cheese Crust </TD>
+           <TD> 2000 </TD>
+           <TD> 500</TD>
+         <TD><input type=int name=CheeseCrust size=1 value='0'></TD>
+
+             </TR>
+      <TR>
+           <TD>  <IMG SRC="image/topping/cheesetopping.jpg" HEIGHT=100 WIDTH=200></TD>
+           <TD> Cheese Topping </TD>
+           <TD> 2000 </TD>
+           <TD> 300</TD>
+         <TD><input type=int name=CheeseTopping size=1 value='0'></TD>
+
+             </TR>
+      <TR>
+           <TD>  <IMG SRC="image/topping/pineappletopping.jpg" HEIGHT=100 WIDTH=200> </TD>
+           <TD> Pineapple Topping </TD>
+           <TD> 2000 </TD>
+           <TD> 100</TD>
+         <TD><input type=int name=PineappleTopping size=1 value='0'></TD>
+
+             </TR>
+</TABLE>
+<br></br>
+Choose Where To Buy : <select name = 'store'>
+<option value = 1001>Kwunsun</option>
+<option value = 1002>Yungtong</option>
+<option value = 1003>Nambu</option>
+<option value = 1004>Mangpo</option>
+<option value = 1005>Woman</option>
+</select>
+<br></br>
+Please Enter Your Email For Perfection
+<br></br>
+Email : <input type=text name=Email size='30'>
+<br></br>
+Please enter place to receive
+<p>Destination : <input type = text name = Destination size='30'></p>
+<p>Please enter the phone number of the recipient</p>
+<p>PhoneNumber : <input type=text name=PhoneNumber></p>
+
+<BR></BR>
+
+<input type=submit value='go to cart'>
+</form>
+       </BODY>
+ </HTML>
